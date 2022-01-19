@@ -1,13 +1,13 @@
 name: test
 on: push
 jobs:
-   job1:
+    job1:
        runs-on: ubuntu-latest
        steps:
        - name: Checkout
        uses: actions/Checkout@v2
        - run: echo "Step1"
-   job2:
+    job2:
        runs-on: ubuntu-latest
        steps:
        - name: Checkout
