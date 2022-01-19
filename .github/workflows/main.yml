@@ -15,4 +15,12 @@ jobs:
             - name: Checkout
               uses: actions/Checkout@v2
             - run: echo "Step2"
+            
+    job3:
+        name: third
+        runs-on: windows-latest
+        steps:
+            - name: Checkout
+              uses: actions/Checkout@v2
+            - run: echo "Step3"
    
